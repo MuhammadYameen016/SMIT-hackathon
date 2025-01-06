@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first-section{
+    background-color: #4c4666;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.edit-text{
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans", serif;
+}
+
+.second-section{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.second-section .anchor-tag a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-left: 40px;
+    font-size: 13px;
+    font-family: "Open Sans", serif;
+}
+
+.allbirds-tag{
+    font-family: "Open Sans", serif;
+    margin-left: 20%;
+}
+
+.anchors-tags a{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-size: 13px;
+    font-family: "Open Sans", serif;
+}
+
+.second-section .anchor-tags a{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Open Sans", serif;
+}
+
+.second-section .anchor-tags .a-tag{
+    margin-left: 100px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display i{
+    margin-left: 15px;
+}
+
+.display .search-bar{
+    margin-left: 30px;
+}
+
+.third-section{
+    background-color: #ffffff;
+    text-align: center;
+    height: 10vh;
+    align-content: center;
+}
+
+.third-section a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 30px;
+    font-family: "Open Sans", serif;
+}
+
+
+.third-section .men{
+    margin-right: 30px;
+}
+
+.absolute{
+    position: absolute;
+    top: 150px;
+    margin-left: 40px;
+    font-size: 80px;
+    color: white;
+    font-family: "Open Sans", serif;
+}
+
+.absolute1{
+    position: absolute;
+    top: 400px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    font-family: "Open Sans", serif;
+}
+
+.fourth-section a{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.display-flex{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.display-flex-set{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.set-absolute{
+    position: absolute;
+    left: 50px;
+    top: 850px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.set-absolute1{
+    position: absolute;
+    left: 440px;
+    top: 855px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.set-absolute2{
+    position: absolute;
+    left: 820px;
+    top: 855px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-align{
+    position: absolute;
+    left: 80px;
+    top: 1300px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;   
+}
+
+.button-align button{
+    width: 100px;
+    height: 30px;
+}
+.imgae1{
+    transition: 0.3s ease;
+}
+.imgae1:hover{
+    transform: scale(1.1);
+}
+
+.button-align1{
+    position: absolute;
+    left: 460px;
+    top: 1300px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;   
+}
+.button-align1 button{
+    width: 100px;
+    height: 30px;
+}
+
+.button-align2{
+    position: absolute;
+    left: 850px;
+    top: 1300px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;   
+}
+.button-align2 button{
+    width: 100px;
+    height: 30px;
+}
+
+.set-image{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 60vh;
+}
+
+.absolute-set{
+    position: absolute;
+    top: 1450px;
+    left: 37%;
+    font-weight: bold;
+    color: black;
+}
+
+.absolute-set12{
+    position: absolute;
+    top: 1480px;
+    text-align: center;
+    left: 25%;
+    font-weight: bold;
+    color: black;
+}
+
+.absolute-set2{
+    position: absolute;
+    top: 1540px;
+    text-align: center;
+    left: 43%;
+    font-weight: bold;
+    color: black;
+}
+
+.display-flex-set-2{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.b2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.b3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.set-image123{
+    padding-top: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+.absolute1234{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    top: 2000px;
+    left: 15%;
+    font-size: 30px;
+}
+
+.absolute12345{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    top: 2000px;
+    left: 65%;
+    font-size: 30px;
+}
+
+.display-f{
+    display: flex;
+    justify-content: space-evenly;
+}
